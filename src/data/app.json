@@ -1,0 +1,91 @@
+{
+    "settings": {
+        "siteName": "EtemadPayPars",
+        "siteDescription": "شرکت ساختمانی اعتماد پی پارس",
+        "mailchimp": {
+            "url": "",
+            "key": ""
+        }
+    },
+    "header": {
+        "logo": {
+            "image": "/img/logo/logo2.png",
+            "alt": "Logo"
+        },
+        "menu": [
+            {
+                "label": "خانه",
+                "link": "/",
+                "children": 0
+            },
+            {
+                "label": "خدمات ما",
+                "link": "/services",
+                "children": 0
+            },
+            {
+                "label": "نمونه کارها",
+                "link": "/projects",
+                "children": 0
+            },
+            {
+                "label": "وبلاگ",
+                "link": "/blog",
+                "children": 0
+            },
+            {
+                "label": "تماس با ما",
+                "link": "/contact",
+                "children": 0
+            },
+            {
+                "label": "درباره ما",
+                "link": "/about",
+                "children": 0
+            },
+            {
+                "label": "تیم ما",
+                "link": "/team",
+                "children": 0
+            }
+        ]
+    },
+    "footer": {
+        "logo": {
+            "image": "/img/logo/logo2.png",
+            "alt": "Logo"
+        },
+        "copy": "© Alvand Technology",
+        "menu": [
+            {
+                "label": "خانه",
+                "link": "/"
+            },
+            {
+                "label": "درباره ما",
+                "link": "/about"
+            },
+            {
+                "label": "خدمات ما",
+                "link": "/services"
+            },
+            {
+                "label": "پروژه ها",
+                "link": "/projects"
+            },
+            {
+                "label": "وبلاگ",
+                "link": "/blog"
+            },
+            {
+                "label": "تماس با ما",
+                "link": "/contact"
+            },
+            {
+                "label": "تیم ما",
+                "link": "/team"
+            }
+        ]
+    }
+
+}
