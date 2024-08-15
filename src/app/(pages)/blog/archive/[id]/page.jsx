@@ -14,7 +14,7 @@ export async function generateMetadata({ params }) {
   const archiveData = await getSingleArchiveData(params);
   
   return {
-    title: archiveData.month+', '+archiveData.year + " | Archive | Blog",
+    title: archiveData.month+', '+archiveData.year + " | آرشیو | وبلاگ",
   }
 }
 
