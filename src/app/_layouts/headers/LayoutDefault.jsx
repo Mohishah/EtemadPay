@@ -4,6 +4,7 @@ import Link from "next/link";
 import AppData from "@data/app.json";
 import { useState, useEffect } from 'react';
 import { usePathname } from 'next/navigation';
+import ThemeSwitcher from '@components/ThemeSwitcher'; // Added this line
 
 const DefaultHeader = () => {
   const [toggle, setToggle] = useState(false);
@@ -61,6 +62,7 @@ const DefaultHeader = () => {
 
                     {/* right buttons */}
                     <div className="mil-top-panel-buttons">
+                        <ThemeSwitcher /> {/* Added this line */}
                         <Link href="/contact" className="mil-button mil-sm">همکاری با ما</Link>
 
                         <div className={`mil-menu-btn ${toggle ? "mil-active" : ""}`} onClick={() => setToggle(!toggle)}>

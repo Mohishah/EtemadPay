@@ -5,6 +5,8 @@ import "@styles/css/plugins/bootstrap-grid.css";
 import "@styles/css/plugins/swiper.min.css";
 import "@styles/css/plugins/magnific-popup.css";
 
+import { ThemeProvider } from '@context/ThemeContext'; // Added this line
+
 import { register } from "swiper/element/bundle";
 // register Swiper custom elements
 register();
@@ -27,11 +29,12 @@ const Layouts = ({
   return (
     <html lang="fa" dir='rtl'>
       <body>
-        <div className="mil-wrapper">
-          {children}
-
-          <ScrollbarProgress />
-        </div>
+        <ThemeProvider> {/* Added this wrapper */}
+          <div className="mil-wrapper">
+            {children}
+            <ScrollbarProgress />
+          </div>
+        </ThemeProvider> {/* Added this wrapper */}
       </body>
     </html>
   );

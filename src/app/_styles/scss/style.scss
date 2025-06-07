@@ -45,3 +45,11 @@
 @import 'variables.module';
 @import 'common';
 @import 'components';
+@import 'dark_mode';
+
+body.dark-mode {
+  background-color: $dark-background;
+  color: $dark-on-background;
+
+  // Add more specific dark mode styles for other elements as needed
+}
